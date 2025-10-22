@@ -3,52 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grade 5–12 Q&A Hub</title>
+  <title>Student Quiz Portal</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- HEADER -->
   <header>
-    <nav class="navbar">
-      <h1>Grade 5–12 Q&A Hub</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Subjects</a></li>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <input type="text" placeholder="Search..." />
-    </nav>
+    <h1>📚 Student Quiz Portal</h1>
+    <button id="theme-toggle">🌙</button>
   </header>
 
-  <!-- MAIN CONTENT -->
   <main>
-    <section class="grades">
+    <section id="grades">
       <h2>Select Your Grade Group</h2>
-      <div class="grade-groups">
-        <button class="grade-btn" data-group="5-7">Grades 5, 6 & 7</button>
-        <button class="grade-btn" data-group="8-9">Grades 8 & 9</button>
-        <button class="grade-btn" data-group="10-12">Grades 10, 11 & 12</button>
+      <div class="grade-buttons">
+        <button data-grade="5-7">Grade 5, 6 & 7</button>
+        <button data-grade="8-9">Grade 8 & 9</button>
+        <button data-grade="10-12">Grade 10, 11 & 12</button>
       </div>
     </section>
 
-    <section id="subjects-section" class="hidden">
-      <h2 id="selected-grade"></h2>
-      <div id="subjects-container" class="subjects-grid"></div>
-    </section>
-
-    <section id="pdfs-section" class="hidden">
-      <h2 id="selected-subject"></h2>
-      <div id="pdfs-container" class="pdfs-grid"></div>
-    </section>
+    <!-- Grade Sections -->
+    <section id="subjects-container" class="hidden"></section>
+    <section id="topics-container" class="hidden"></section>
   </main>
 
-  <!-- FOOTER -->
   <footer>
-    <p>© 2025 QA Academy. All rights reserved.</p>
+    <p>© 2025 Student Quiz Portal | All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-  </html>
+</html>
