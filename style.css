@@ -1,0 +1,159 @@
+/* ===== GENERAL ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f8ff;
+  color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #002d62;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar input {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  border: none;
+}
+
+/* ===== GRADE SELECTION ===== */
+.grades {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.grade-groups {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.grade-btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.grade-btn:hover {
+  background: #357abd;
+}
+
+/* ===== SUBJECTS ===== */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.subject-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.subject-card:hover {
+  background: #e8f0ff;
+}
+
+/* ===== PDF SECTION ===== */
+.pdf-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.upload-label {
+  background: #357abd;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload-label input {
+  display: none;
+}
+
+.pdfs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.pdf-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.pdf-card:hover {
+  background: #f0f7ff;
+}
+
+.pdf-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+}
+
+.pdf-card a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #002d62;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ===== HIDDEN ===== */
+.hidden {
+  display: none;
+  }
