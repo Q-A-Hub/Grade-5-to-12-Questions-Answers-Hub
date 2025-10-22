@@ -1,0 +1,31 @@
+{
+  "5-7": {
+    "English": [],
+    "Science": [],
+    "Mathematics": [],
+    "Social Studies": [],
+    "Creative and Technology Studies": []
+  },
+  "8-9": {
+    "Mathematics": [],
+    "Science": [],
+    "History": [],
+    "Social Studies": [],
+    "Geography": [],
+    "Civic Education": [],
+    "Computer Studies": [],
+    "Business Studies": [],
+    "Agricultural Science": []
+  },
+  "10-12": {
+    "Mathematics": [],
+    "English Language": [],
+    "Agricultural Science": [],
+    "Physics": [],
+    "Biology": [],
+    "Chemistry": [],
+    "History": [],
+    "Geography": [],
+    "Civic Education": []
+  }
+}
