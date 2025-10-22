@@ -34,6 +34,7 @@ body {
 .navbar ul li a {
   color: #fff;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .navbar input {
@@ -93,25 +94,6 @@ body {
 }
 
 /* ===== PDF SECTION ===== */
-.pdf-section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-
-.upload-label {
-  background: #357abd;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.upload-label input {
-  display: none;
-}
-
 .pdfs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
